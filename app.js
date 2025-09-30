@@ -12,7 +12,7 @@ app.use(cookieParser());
 //so the backedn will recieve cookie from frontend by doing this in cors
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://next-app-auth-frontend-jsmt.vercel.app/"],
+    origin: ["http://localhost:3000","https://next-app-auth-frontend-jsmt.vercel.app"],
     credentials: true,
   })
 );
